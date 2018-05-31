@@ -10,7 +10,7 @@ export default class TieBars extends Component{
 
     render(){
         return(
-            <div>
+            <div className='displayPage'>
                 TieBars
             </div>
         )

@@ -55,6 +55,18 @@ table {
   width: 100%;
   }
 
+  .nav{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+  }
+
 .upperNav{
   display: flex;
   justify-content: space-between;
@@ -64,15 +76,19 @@ table {
 
 .lowerNav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+
+.signWishCart{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navButtons{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90px;
   height: 35px;
   color: black
 }
@@ -80,5 +96,23 @@ table {
   color: lightgrey;
   text-decoration: underline;
 }
+
+.displayPage{
+  margin-top: 110px;
+}
+
+.sectionTitle{
+  font-size: 50px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.sectionSubTitle{
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+
 
 

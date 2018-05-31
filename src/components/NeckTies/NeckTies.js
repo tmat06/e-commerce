@@ -10,7 +10,7 @@ export default class NeckTies extends Component{
 
     render(){
         return(
-            <div>
+            <div className='displayPage'>
                 NeckTies
             </div>
         )
