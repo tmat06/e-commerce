@@ -6,9 +6,11 @@ import Nav from './components/Nav';
 class App extends Component {
   render() {
     return (
-      <div className="App container">
-      <Nav/>
-      {routes}
+      <div className="App">
+        <Nav />
+        <div className='container'>
+          {routes}
+        </div>
       </div>
     );
   }

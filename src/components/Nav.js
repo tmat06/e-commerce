@@ -24,13 +24,13 @@ export default class Nav extends Component {
 
     render() {
         return (
-            <div>
+            <div className='nav'>
                 <div className='upperNav'>
-                    <div >
+                    <div className='col-lg-4'>
                         <input type="text" class="form-control" placeholder="Search" aria-label="Search Bar" aria-describedby="Contains Search Feature" />
                     </div>
-                    <h1 >The Tie Bar</h1>
-                    <div>
+                    <h1 className='col-lg-4'>The Tie Bar</h1>
+                    <div className='signWishCart col-lg-4'>
                         <button>Sign In</button>
                         <button>Wishlist</button>
                         <button>Cart</button>

@@ -10,7 +10,7 @@ export default class Gifts extends Component{
 
     render(){
         return(
-            <div>
+            <div className='displayPage'>
                 Gifts
             </div>
         )

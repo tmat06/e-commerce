@@ -10,7 +10,7 @@ export default class Wedding extends Component{
 
     render(){
         return(
-            <div>
+            <div className='displayPage'>
                 Wedding
             </div>
         )

@@ -10,7 +10,7 @@ export default class SkinnyTies extends Component{
 
     render(){
         return(
-            <div>
+            <div className='displayPage'>
                 SkinnyTies
             </div>
         )

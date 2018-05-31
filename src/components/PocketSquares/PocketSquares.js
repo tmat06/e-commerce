@@ -10,7 +10,7 @@ export default class PocketSquares extends Component{
 
     render(){
         return(
-            <div>
+            <div className='displayPage'>
                 PocketSquares
             </div>
         )
