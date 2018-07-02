@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import RowDisplay from "./../RowDisplay";
-import MiniRowDisplay from "./../MiniRowDisplay";
-import WideRowDisplay from "./../WideRowDisplay";
+import RowDisplay from "./RowDisplay";
+import MiniRowDisplay from "./MiniRowDisplay";
+import WideRowDisplay from "./WideRowDisplay";
 
 export default class Landing extends Component {
   render() {
